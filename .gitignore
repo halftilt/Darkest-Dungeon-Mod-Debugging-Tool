@@ -1,0 +1,9 @@
+build
+dist
+legacy_scripts
+.idea
+__pycache__
+mod_conflict_finder.spec
+legacy_scripts/get_an_array_from_json.py
+prepare_mod.py
+mod_conflicts.txt
