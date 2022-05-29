@@ -96,7 +96,6 @@ def check_monster_brains(mod_directory):
                 monster_brain_files = os.listdir(f"{mod_directory}/raid/ai")
             else:
                 monster_brain_files = []
-                # monster_brain_files = []
         else:
             monster_brain_files = []
         all_ai_names = []
@@ -151,7 +150,6 @@ def check_monster_effects(mod_directory):
                 if monster in variant:
                     with open(f"{mod_directory}/monsters/{monster}/{variant}/{variant}.info.darkest", "r") as variant_info_file:
                         variant_info_string = variant_info_file.readlines()
-                        variant_monster_effects = []
                         ability_effects_obj = filter(lambda a: 'skill:' in a, variant_info_string)
                         capture_effects_obj = filter(lambda a: 'captor_full:' in a, variant_info_string)
                         capture_effects_lines = list(capture_effects_obj)

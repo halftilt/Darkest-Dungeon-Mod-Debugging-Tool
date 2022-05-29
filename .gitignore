@@ -7,3 +7,4 @@ mod_conflict_finder.spec
 legacy_scripts/get_an_array_from_json.py
 prepare_mod.py
 mod_conflicts.txt
+other_tools/temp_xml.txt
